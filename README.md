@@ -21,6 +21,3 @@ The device's architecture is based on Arduino microcontrollers, making it more a
 ## Contact
 
 - If you have any questions or suggestions, feel free to reach out to us via email: voxel.ar.indle@gmail.com
-
-![image](https://github.com/user-attachments/assets/559497b8-b192-487e-9d35-99ab5c7711cc)<p align="center">
-      <img src="[https://ibb.co/ZR1060zW]" width="126">
