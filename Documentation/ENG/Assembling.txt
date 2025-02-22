@@ -1,0 +1,48 @@
+Connecting sensors to an Arduino Nano V3 microcontroller
+
+-------------------------------------------
+
+ST-7789 :
+
+•  VCC - 3.3V (Only!)
+•  GND - GND (Any)
+•  SCK - 13 + Resistor (Used in Voxel firmwares)
+•  SDA - 11 + Resistor (Used in Voxel firmwares)
+•  RES - 9 + Resistor (Used in Voxel firmwares)
+•  DC - 10 + Resistor (Used in Voxel firmwares)
+
+-------------------------------------------
+
+MPU-6050 (INCOMPATIBLE with HMC-5883L OR GY-68) :
+
+•  VCC - 3.3-5V
+•  GND - GND (Any)
+•  SCL - A4 (Only!)
+•  SDA - A5 (Only!)
+
+-------------------------------------------
+
+HMC-5883L (INCOMPATIBLE with MPU-6050 OR GY-68) :
+
+•  VCC - 3.3-5V (Check the specification of your HMC5883L module. Some only work with 3.3V)
+•  GND - GND (Any)
+•  SCL - A4 (Only!)
+•  SDA - A5 (Only!)
+
+-------------------------------------------
+
+BLUETOOTH HC-06 :
+
+•  VCC - 3.3-5V (Check the specification of your module. Some only work with 3.3V)
+•  GND - GND (Any)
+•  TXD - RX (D0)
+•  RXD - TX (D1)
+
+-------------------------------------------
+
+BAROMETER GY-68 (INCOMPATIBLE with MPU-6050 OR HMC-5883L) :
+
+•  VCC - 3.3V (Only!)
+•  GND - GND (Any)
+•  SCL - A4 (Only!)
+•  SDA - A5 (Only!)
